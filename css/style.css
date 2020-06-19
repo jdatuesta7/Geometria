@@ -1,0 +1,166 @@
+body{ 
+	font-family: sans-serif;
+	font-size: 18px;
+	background: url("../img/fondo.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+.section {
+	
+}
+
+ul{
+	list-style-type: none; 		/*quitar puntos*/
+	margin: 0; 			   		/*margen*/
+	padding: 0;			   		/*relleno*/
+	overflow: hidden;      		/*especifica si recortar contenido*/
+	background-color: #333;		/*color */ 
+	padding: 0 100px;
+	margin-bottom: 20px;
+}
+
+li{
+	float: left; 
+}
+
+li a{
+	display: block; /*tipo de cuadro de representacion del elemento*/
+	color: white;
+	text-align: center;
+	padding: 14px 49.8px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+footer{
+	border: black 3px solid;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	background-color: #333;
+}
+
+
+iframe{
+	display: block;
+	margin: auto;
+}
+
+.imag1{
+	width: 60%;
+	margin-top: 40px;
+	display: block;
+	margin: auto;
+	margin-top: 30px; 
+	margin-bottom: 50px;
+}
+
+.imag2{
+	width: 100%;
+	height: 255px;
+}
+
+.cuerpo{
+	padding: 25px 50px;
+	margin: 0 300px;
+	background-color: white;
+}
+
+.titulo{
+	text-align: center;
+}
+
+.mapa{
+	margin-top: 30px;
+}
+
+.edad{
+	width: 100px;
+}
+
+input{
+	padding: 8px;
+	text-align: center;
+	margin: 8px;
+}
+
+label{
+	font-size: 14px;
+	text-align: center;
+}
+
+.form1{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-right: 50px;
+	padding: 20px;
+	margin-left: 100px;
+	background-color: white;
+}
+
+.form2{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-right: 50px;
+	padding: 20px;
+	background-color: white;
+}
+
+.form3{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-right: 50px;
+	padding: 20px;
+	background-color: white;
+}
+
+.form4{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-right: 50px;
+	padding: 20px;
+	background-color: white;
+}
+
+.botones{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.botonE:hover,.botonR:hover{
+background-color: #111;
+}
+
+.botonE,.botonR{
+background-color: #333;
+padding:10px;
+margin:30px;
+border: 1px solid black;
+color: white;
+border-radius: 4px;
+}
+
+
+.msj{
+	text-align: center;
+}
+
+textarea{
+	width: 300px;
+	height: 70px;
+}
