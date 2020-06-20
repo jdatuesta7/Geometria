@@ -6,60 +6,77 @@ body{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
+	margin: 0;	
 }
 
-.section {
-	
+* {
+	margin: 0;
+	padding: 0;
 }
 
 ul{
-	list-style-type: none; 		/*quitar puntos*/
-	margin: 0; 			   		/*margen*/
-	padding: 0;			   		/*relleno*/
-	overflow: hidden;      		/*especifica si recortar contenido*/
-	background-color: #333;		/*color */ 
-	padding: 0 100px;
-	margin-bottom: 20px;
+	list-style-type: none;
 }
 
-li{
-	float: left; 
-}
-
-li a{
-	display: block; /*tipo de cuadro de representacion del elemento*/
-	color: white;
-	text-align: center;
-	padding: 14px 49.8px;
+a {
 	text-decoration: none;
 }
 
-li a:hover {
+/* index */
+
+.menu {
+	background-color: #333;
+	text-align: center;	/*color */ 
+}
+
+.item {
+	display: inline-block;
+}
+
+.item a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-family: monospace;
+}
+
+.item a:hover {
 	background-color: #111;
 }
 
-footer{
-	border: black 3px solid;
-	margin-top: 10px;
+footer {
+	padding: 15px;
 	text-align: center;
 	color: white;
 	background-color: #333;
+	font-family: monospace;
 }
 
+.iframe-video {
+	width: 300px;
+}
 
-iframe{
+.ubicacion {
+	padding: 20px;
+	color: white;
+	background-color: black;
+}
+
+.ubicacion h2 {
+	margin: 10px 0;
+	font-family: monospace;
+}
+
+.iframe-map {
 	display: block;
 	margin: auto;
+	width: 100%;
 }
 
 .imag1{
-	width: 60%;
-	margin-top: 40px;
-	display: block;
-	margin: auto;
-	margin-top: 30px; 
-	margin-bottom: 50px;
+	width: 100%;
+	height: 300px;
 }
 
 .imag2{
@@ -69,8 +86,52 @@ iframe{
 
 .cuerpo{
 	padding: 25px 50px;
-	margin: 0 300px;
+	max-width: 700px;
+	margin: auto;
 	background-color: white;
+}
+
+.cuerpo p {
+	margin: 20px 0;
+}
+
+.table-historia {
+	border-collapse: collapse;
+}
+
+.table-historia, th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.cuerpo img {
+	margin: 10px 0;
+	border: 2px solid black;
+}
+
+.axiomas-list {
+	list-style-type: circle;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.iframe-geometria {
+	border: 2px solid black;
+	box-shadow: 10px 10px 20px;
+	margin: 20px 0;
+}
+
+.table-geometria {
+	margin-top: 20px;
+	border-collapse: collapse;
+	text-align: center;
+	max-width: 400px;
+	margin: auto;
+	box-shadow: 5px 5px 20px;
+}
+
+.table-geometria, th, td {
+	border: 2px solid #000;
 }
 
 .titulo{
@@ -89,6 +150,7 @@ input{
 	padding: 8px;
 	text-align: center;
 	margin: 8px;
+	border: 2px solid rgb(212, 212, 212);
 }
 
 label{
@@ -96,45 +158,19 @@ label{
 	text-align: center;
 }
 
-.form1{
-	display: inline-block;
-	text-align: center;
-	border: 1px solid black;
-	border-radius: 4px;
-	margin-right: 50px;
+.form-principal {
+	background: white;
 	padding: 20px;
-	margin-left: 100px;
-	background-color: white;
 }
 
-.form2{
+.form {
 	display: inline-block;
 	text-align: center;
-	border: 1px solid black;
-	border-radius: 4px;
-	margin-right: 50px;
+	border: 2px solid gray;
+	border-radius: 10px;
 	padding: 20px;
 	background-color: white;
-}
-
-.form3{
-	display: inline-block;
-	text-align: center;
-	border: 1px solid black;
-	border-radius: 4px;
-	margin-right: 50px;
-	padding: 20px;
-	background-color: white;
-}
-
-.form4{
-	display: inline-block;
-	text-align: center;
-	border: 1px solid black;
-	border-radius: 4px;
-	margin-right: 50px;
-	padding: 20px;
-	background-color: white;
+	margin: 0 10px;
 }
 
 .botones{
@@ -143,24 +179,34 @@ label{
 }
 
 .botonE:hover,.botonR:hover{
-background-color: #111;
+	background-color: #111;
 }
 
 .botonE,.botonR{
-background-color: #333;
-padding:10px;
-margin:30px;
-border: 1px solid black;
-color: white;
-border-radius: 4px;
+	background-color: #333;
+	padding:10px;
+	margin:30px;
+	border: 1px solid black;
+	color: white;
+	border-radius: 4px;
 }
 
 
 .msj{
 	text-align: center;
+	color: white;
+	background: black;
+	padding: 10px;
+}
+
+.msj h2 {
+	margin: 0;
+	padding: 10px;
 }
 
 textarea{
 	width: 300px;
 	height: 70px;
 }
+
+/* AXIOMAS*/
