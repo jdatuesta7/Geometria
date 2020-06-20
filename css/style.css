@@ -1,3 +1,5 @@
+/* ESTILOS GENERALES */
+
 body{ 
 	font-family: sans-serif;
 	font-size: 18px;
@@ -95,6 +97,9 @@ footer {
 	margin: 20px 0;
 }
 
+
+/* HISTORIA */
+
 .table-historia {
 	border-collapse: collapse;
 }
@@ -109,11 +114,16 @@ footer {
 	border: 2px solid black;
 }
 
+/*************** AXIOMAS ******************/
+
 .axiomas-list {
 	list-style-type: circle;
 	margin-top: 20px;
 	margin-left: 20px;
 }
+
+
+/************ GEOMETRIA ************/
 
 .iframe-geometria {
 	border: 2px solid black;
@@ -145,6 +155,8 @@ footer {
 .edad{
 	width: 100px;
 }
+
+/***** CONTACTENOS *****/
 
 input{
 	padding: 8px;
@@ -208,5 +220,3 @@ textarea{
 	width: 300px;
 	height: 70px;
 }
-
-/* AXIOMAS*/
