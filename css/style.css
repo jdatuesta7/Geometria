@@ -81,14 +81,14 @@ footer {
 }
 
 .cuerpo{
-	padding: 25px 50px;
+	padding: 25px 50px; /*arriba y abajo /izquierda y derecha */
 	max-width: 700px;
 	margin: auto;
 	background-color: white;
 }
 
 .cuerpo p {
-	margin: 20px 0;
+	margin: 20px 0; /* */
 }
 
 
