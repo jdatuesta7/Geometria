@@ -11,7 +11,7 @@ body{
 	margin: 0;	
 }
 
-* {
+*{
 	margin: 0;
 	padding: 0;
 }
@@ -27,6 +27,7 @@ a {
 /* index */
 
 .menu {
+	margin-top: -5px;
 	background-color: #333;
 	text-align: center;	/*color */ 
 }
@@ -109,6 +110,7 @@ footer {
 	border: 2px solid black;
 }
 
+
 /*************** AXIOMAS ******************/
 
 .axiomas-list {
@@ -147,10 +149,6 @@ footer {
 
 /***** CONTACTENOS *****/
 
-.mapa{
-	margin-top: 30px;
-}
-
 .edad{
 	width: 100px;
 }
@@ -173,8 +171,8 @@ label{
 }
 
 .form-principal {
-	background: white;
 	padding: 20px;
+	margin-left: 75px;
 }
 
 .form {
@@ -209,7 +207,7 @@ label{
 .msj{
 	text-align: center;
 	color: white;
-	background: black;
+	background: #333;
 	padding: 10px;
 }
 
@@ -222,3 +220,35 @@ textarea{
 	width: 300px;
 	height: 70px;
 }
+
+/***** Factura *****/
+.productos {
+	text-align: center;
+}
+
+.productos h2{
+	background-color: black;
+	color: white;
+	padding: 15px;
+	border: 2px solid gray;
+}
+section{
+	border: 2px solid gray;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 20px;
+}
+
+.datosBasicos{
+	margin-top: 60px;
+	text-align: center;
+}
+
+.datosBasicos h2{
+	background-color: black;
+	color: white;
+	padding: 15px;
+	border: 2px solid gray;
+}
+
+
