@@ -1,0 +1,67 @@
+.encabezado {
+	background: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    background: url('../img/encabezadoIndex.jpg');
+}
+
+.encabezado .logo {
+    margin: 30px;
+    display: inline-block;
+}
+
+.encabezado h1 {
+    color: black;
+}
+
+.encabezado img {
+	width: 100px;
+}
+
+.catalogo-info {
+    background: white;
+    text-align: center;
+}
+
+.titulo {
+    padding: 20px;
+    font-size: 40px;
+}
+
+.carta-producto {
+    margin: 20px;
+    width: 20%;
+    box-shadow: 5px 5px 10px gray;
+    display: inline-block;
+    transition: 1s ease;
+}
+
+.carta-producto:hover {
+    transform: translateY(-20px);
+}
+
+.carta-head {
+    padding: 20px 0;
+}
+
+.carta-body {
+    padding: 20px;
+}
+
+.carta-producto button {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    background: #26C6DA;
+    color: white;
+    font-weight: bold;
+}
+
+.carta-producto button:hover {
+    background: #0097A7;
+}
+
+.carta-producto button a {
+    color: white;
+}
