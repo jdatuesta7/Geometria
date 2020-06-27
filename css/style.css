@@ -27,8 +27,8 @@ a {
 /* index */
 
 .menu {
-	background-color: #333;
-	text-align: center;	/*color */ 
+	background-color: black;
+	text-align: center;
 }
 
 .item {
@@ -38,20 +38,19 @@ a {
 .item a{
 	display: block;
 	color: white;
-	text-align: center;
 	padding: 20px;
-	font-family: monospace;
+	font-size: 15px;
 }
 
 .item a:hover {
-	background-color: #111;
+	background-color: #333;
 }
 
 footer {
 	padding: 15px;
 	text-align: center;
 	color: white;
-	background-color: #333;
+	background-color: black;
 	font-family: monospace;
 }
 
@@ -222,3 +221,92 @@ textarea{
 	width: 300px;
 	height: 70px;
 }
+
+/**** SERVICIO EN LINEA ******/
+
+.encabezado {
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+.encabezado .logo {
+	padding: 20px 0;
+}
+
+.encabezado img {
+	width: 100px;
+}
+
+.chat-info {
+	position: relative;
+	height: 500px;
+	padding: 50px 0;
+	background: white;
+}
+
+.chat-info h3 {
+	margin: 10px;
+	margin-left: 20px;
+}
+
+hr {
+	margin: 10px;
+	margin-left: 20px;
+	width: 80%;
+}
+
+.chat-info img {
+	margin: 20px 60px;
+	margin-left: 20px;
+}
+
+.chat-info p {
+	margin: 10px 0;
+	margin-left: 20px;
+}
+
+.chat {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	right: 40px;
+	box-shadow: 5px 5px 18px rgb(97, 97, 97);
+	width: 300px;
+	height: 500px;
+	background: white;
+}
+
+.chat .chat-head {
+	background: rgb(255, 208, 0);
+	text-align: center;
+	padding: 20px 30px;
+	color: white;
+}
+
+.chat .chat-body {
+	padding: 20px;
+	margin: 10px;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid gray;
+	height: 350px;
+}
+
+.chat input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;	
+}
+
+.chat input[type=button] {
+	border: none;
+	background: rgb(212, 16, 16);
+	color: white;
+}
+
+/*******/
