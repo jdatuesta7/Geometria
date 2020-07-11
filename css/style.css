@@ -1,7 +1,8 @@
 /* ESTILOS GENERALES */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{ 
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	background: url("../img/fondo.jpg") no-repeat center fixed;
 	-webkit-background-size: cover;
@@ -33,6 +34,13 @@ a {
 
 .item {
 	display: inline-block;
+}
+
+.titulo-user {
+	background: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
 }
 
 .item a{
@@ -147,60 +155,60 @@ footer {
 
 /***** CONTACTENOS *****/
 
-.edad{
+.edad {
 	width: 100px;
 }
 
-.imag2{
+.imag2 {
 	width: 100%;
 	height: 300px;
 }
 
-input{
-	padding: 8px;
+.form-principal {
+	padding: 20px;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	max-width: 400px;
+	margin: auto;
+}
+
+.btn_mostrar {
+	margin: 10px;
+	padding: 20px;
+	border: none;
+	border-radius: 5px;
+	background: rgb(31, 14, 131);
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn_mostrar:hover {
+	background: rgb(47, 19, 209);
+}
+
+.form-principal h3 {
+	margin-bottom: 20px;
+}
+
+
+.form-principal input {
+	padding: 10px;
+	background: rgb(240, 240, 240);
 	text-align: center;
 	margin: 8px;
+	width: 300px;
+	border-radius: 5px;
 	border: 2px solid rgb(212, 212, 212);
 }
 
-label{
-	font-size: 14px;
-	text-align: center;
+.form-principal label {
+	padding: 8px;
+	margin: 8px;
+	width: 300px;
+	border-radius: 5px;
 }
-
-.form-principal {
-	padding: 20px;
-	margin-left: 75px;
-}
-
-.form {
-	display: inline-block;
-	text-align: center;
-	border: 2px solid gray;
-	border-radius: 10px;
-	padding: 20px;
-	background-color: white;
-	margin: 0 10px;
-}
-
-.botones{
-	text-align: center;
-	margin-top: 50px;
-}
-
-.botonE:hover,.botonR:hover{
-	background-color: #111;
-}
-
-.botonE,.botonR{
-	background-color: #333;
-	padding:10px;
-	margin:30px;
-	border: 1px solid black;
-	color: white;
-	border-radius: 4px;
-}
-
 
 .msj{
 	text-align: center;
@@ -214,9 +222,17 @@ label{
 	padding: 10px;
 }
 
-textarea{
+textarea {
 	width: 300px;
 	height: 70px;
 }
+
+.table_usuarios {
+	text-align: center;
+	background: white;
+	margin: 50px;
+	border-collapse: collapse;
+}
+
 /***** Factura *****/
 

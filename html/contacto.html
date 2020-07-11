@@ -21,116 +21,45 @@
 			<li class="item"><a href="factura.html">Factura</a></li>
 			<li class="item"><a href="chat.html">Servicio en linea</a></li>
 		</ul>
-	</nav>
-
-
-	<div class="msj">
-		<h2>Suscribete</h2>
-		<p>Si te suscribes a nuestra pagina podrás ser notificado cuando se plublique nuevo contenido
-			relacionado al tema actual, no utilizaremos tus datos para otro fin distinto</b>
-		</p>
-	</div>
+	</nav><br><br>
 	
 	<div class="form-principal">
-		<center>
-			<h4><b>Ingresa tus datos</b></h4>
-		</center>
-
-		<form class="form">
-			<label><b>Nombres completos</b></label><br>
-			<input type="text" name="firstname" placeholder="digite nombres"><br><br>
-			<label><b>Numero de Identificacion</b></label><br>
-			<input type="number" name="id"><br><br>
-			<label><b>Correo electronico</b></label><br>
-			<input type="email" name="correo" placeholder="correo@example.com"><br><br>
-			<label><b>Contraseña</b></label><br>
-			<input type="password" name="contraseña"><br><br>
-		</form>
-
-		<form class="form">
-			<label><b>Numero de telefono</b></label><br>
-			<input type="tel" name="celular" placeholder="123456789"><br><br>
-			<label><b>Seleccione genero</b></label><br>
+		<form id="form_contactenos">
+			<h3>Contactanos</h3>
+			<input type="text" placeholder="Nombres" id="nombre">
+			<input type="text" placeholder="CC" id="cedula">
+			<input type="email" placeholder="correo@example.com" id="correo">
+			<input type="tel" placeholder="Telefono de celular" id="telefono">
 			<label>Masculino</label>
-			<input type="radio" name="gen" value="men"><br>
+			<input type="radio" name="gen" value="men">
 			<label>Femenino</label>
-			<input type="radio" name="gen" value="women"><br><br>
-			<label><b>Fecha de nacimiento</b></label><br>
-			<input type="date" name="fecha"><br><br>
-			<label><b>Pagina web</b></label><br>
-			<input type="url" name="pagina" placeholder="www.mipagina.com"><br><br>
+			<input type="radio" name="gen" value="women">
+			<input type="date" placeholder="Fecha" id="fecha">
+			<input class="edad" type="number" placeholder="Edad" id="edad">
+			<textarea></textarea>
+			<input type="submit">
+			<input type="reset">
 		</form>
+	</div>
 
-		<form class="form">
-			<label><b>Edad</b></label><br>
-			<input class="edad" type="number" name="edad"><br><br>
-			<label><b>Añadir archivo adicional</b></label><br>
-			<input type="file" name="seleccionar archivos"><br><br>
-
-			<label><b>Seleccione profesion</b></label><br>
-			<select name="select">
-				<option value="value0"></option>
-				<option value="value1">Escritor</option>
-				<option value="value2">Auxiliar de ayuda a domicilio</option>
-				<option value="value3">Camarero/a</option>
-				<option value="value4">Limpiacristales</option>
-				<option value="value5">Veterinario</option>
-				<option value="value6">Camionero/a</option>
-				<option value="value7">Agente de viajes</option>
-				<option value="value8">Telefonista</option>
-				<option value="value9">Profesor/a</option>
-				<option value="value10">Taxista</option>
-				<option value="value11">Cirujano</option>
-				<option value="value12">deportista</option>
-				<option value="value13">Trabajador social</option>
-				<option value="value14">Dependiente/a de una tienda</option>
-				<option value="value15">Zapatero</option>
-				<option value="value16">Secretario</option>
-				<option value="value17">Científico</option>
-				<option value="value18">Marinero/a</option>
-				<option value="value19">Investigador</option>
-				<option value="value20">Otro</option>
-			</select><br><br>
-
-			<label><b>Nivel de conocimiento sobre la Geometria</b></label><br>
-			<input type="range" list="tickmarks">
-			<datalist id="tickmarks">
-				<option value="0" label="0%">
-				<option value="10">
-				<option value="20">
-				<option value="30">
-				<option value="40">
-				<option value="50" label="50%">
-				<option value="60">
-				<option value="70">
-				<option value="80">
-				<option value="90">
-				<option value="100" label="100%">
-			</datalist><br><br>
-		</form>
-		<form class="form">
-			<label><b>Seleccione sus areas preferidas</b></label><br>
-			<label>Geometria</label>
-			<input type="checkbox" name="geometria"><br>
-			<label>Trigonometria</label>
-			<input type="checkbox" name="Trigonometria"><br>
-			<label>Calculo</label>
-			<input type="checkbox" name="calculo"><br>
-			<label>Probabilidad</label>
-			<input type="checkbox" name="Probabilidad"><br>
-			<label>Estadistica</label>
-			<input type="checkbox" name="Estadistica"><br>
-			<label>Aritmetica</label>
-			<input type="checkbox" name="Aritmetica"><br>
-			<label>Algebra</label>
-			<input type="checkbox" name="Algebra"><br><br>
-			<label><b>Comentarios</b></label><br>
-			<textarea></textarea><br><br>
-		</form>
-		<div class="botones">
-			<input type="submit" name="Enviar" class="botonE">
-			<input type="reset" name="restablecer" class="botonR">
-		</div>
+	<div>
+		<center>
+			<table class="table_usuarios" id="tabla_contactos">
+				<button class="btn_mostrar" id="mostrar">Mostrar</button>
+				<thead>
+					<th>Nombre</th>
+					<th>cc</th>
+					<th>Correo</th>
+					<th>Telefono</th>
+					<th>Fecha</th>
+					<th>Edad</th>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+			<h4 id="mensaje"></h4>
+		</center>
 	</div>
 	
 	<div class="ubicacion">
@@ -145,12 +74,12 @@
 	</div>
 
 	<footer>
-		Contactanos: Telefono 301546798 <br><br>
-		Email: math@gmail.com <br><br>
-		Direccion: 500 Enrique Cegoviano, San Francisco, CA 945354 <br><br>
-		&copy; <small>2020 Por Geometria-web</small> <br>
+		Contactanos: Telefono 301546798 
+		Email: math@gmail.com 
+		Direccion: 500 Enrique Cegoviano, San Francisco, CA 945354 
+		&copy; <small>2020 Por Geometria-web</small> 
 	</footer>
-
+	<script src="../JS/contactenos.js"></script>
 </body>
 
 </html>

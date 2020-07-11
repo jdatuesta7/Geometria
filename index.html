@@ -1,67 +1,24 @@
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Geometria</title>
+	<title>Login</title>
+	<link rel="stylesheet" href="css/login.css">
 </head>
-
 <body>
-	<img src="img/encabezadoIndex.jpg" width="100%" class="imag1">
-	<nav>
-		<ul class="menu">
-			<li class="item"><a href="index.html">Inicio</a></li>
-			<li class="item"><a href="html/historia.html">Historia</a></li>
-			<li class="item"><a href="html/axiomas.html">Axiomas, definiciones y teoremas</a></li>
-			<li class="item"><a href="html/tiposDeGeometria.html">Tipos de geometria</a></li>
-			<li class="item"><a href="html/catalogo.html">Catalogo</a></li>
-			<li class="item"><a href="html/contacto.html">Contactenos</a></li>
-			<li class="item"><a href="html/factura.html">Factura</a></li>
-			<li class="item"><a href="html/chat.html">Servicio en linea</a></li>
-		</ul>
-	</nav>
-	<div class="cuerpo">
-		<h2 class="titulo"> La Geometria </h2>
-
-		<p>La <b>geometría</b> (del latín geometrĭa, y este del griego γεωμετρία de γῆ gē, ‘tierra’, y
-			μετρία metría, ‘medida’) es una rama de las matemáticas que se ocupa del estudio de las propiedades de las
-			figuras en el plano o el espacio,1​ incluyendo: puntos, rectas, planos, politopos (que incluyen paralelas,
-			perpendiculares, curvas, superficies, polígonos, poliedros, etc.).
-
-			Es la base teórica de la geometría descriptiva o del dibujo técnico. También da fundamento a instrumentos
-			como
-			el compás, el teodolito, el pantógrafo o el sistema de posicionamiento global (en especial cuando se la
-			considera en combinación con el análisis matemático y sobre todo con las ecuaciones diferenciales).
-		</p>
-		<p>
-			Es la base teórica de la geometría descriptiva o del dibujo técnico. También da fundamento a instrumentos
-			como el compás, el teodolito, el pantógrafo o el sistema de posicionamiento global (en especial cuando se la
-			considera en combinación con el análisis matemático y sobre todo con las ecuaciones diferenciales).
-		</p>
-		<p>
-			Sus orígenes se remontan a la solución de problemas concretos relativos a medidas. Tiene su aplicación
-			práctica
-			en física aplicada, mecánica, arquitectura, geografía, cartografía, astronomía, náutica, topografía,
-			balística
-			etc., y es útil en la preparación de diseños e incluso en la fabricación de artesanía.
-		</p>
-		<p>
-			La Geometría tiene tres entes o elementos fundamentales no definidos: punto, recta y plano. El punto es el
-			primer elemento que no está definido en Geometría. Se representa gráficamente por un pequeño círculo y una
-			letra mayúscula que lo identifica.
-		</p>
-		<iframe class="iframe-video" src="https://www.youtube.com/embed/wIf9Cy9ANGY" frameborder="0"></iframe>
+	<div class="form_sesion">
+		<form id="form">
+			<h1>Iniciar sesion</h1>
+			<input type="email" class="form_input" id="email" required placeholder="Email">
+			<input type="password" class="form_input" id="password" required placeholder="*************">
+			<input type="submit" class="form_submit" value="Enviar datos"><br>
+			<p id="danger" style="background: rgb(185, 15, 3); color: white;"></p>
+			<a href="html/inicio.html" class="btn-continuar">Iniciar sesion</a>
+			<a href="html/inicio.html" class="btn-continuar">Continuar como invitado</a>
+		</form>
 	</div>
 
-	<footer>
-		Contactanos: Telefono 301546798 <br>
-		Email: math@gmail.com <br>
-		Direccion: 500 Enrique Cegoviano, San Francisco, CA 945354 <br>
-		&copy; 2020 Por Geometria-web <br>
-
-	</footer>
+	<script src="JS/form.js"></script>
 </body>
-
 </html>
